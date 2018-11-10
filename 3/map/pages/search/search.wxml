@@ -1,0 +1,16 @@
+<!--logs.wxml-->
+<view class="container">
+    <view class='top'>
+        <input type="text" bindinput="handleInput"/>
+        <view bindtap='handleSearch'>搜索</view>
+    </view>
+    <view class='center'>
+        <block wx:for="{{listInfo}}" wx:key="*this">
+            <view class='result'>
+                <view>{{item.address}}</view>
+                <view>{{item.sall}}</view>
+            </view>
+        </block>
+        
+    </view>
+</view>

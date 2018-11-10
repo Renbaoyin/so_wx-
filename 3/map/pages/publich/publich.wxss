@@ -1,0 +1,43 @@
+
+.container{
+    color: #a6a6a6
+}
+.info{
+    width:100%;
+    height:150rpx;
+    border-bottom:1px solid #d5d5d5;
+    
+}
+.num{
+    line-height: 150rpx;
+}
+.info>label{
+    float:left;
+    margin:0 76rpx 0 12px;
+}
+.info>.label{
+   margin:0 150rpx 0 12px; 
+}
+.info>view{
+    float:left; 
+}
+.info>input{
+    display:inherit;
+    padding-top:23px;
+    color: #a6a6a6
+}
+.radio-group{
+    float:left
+}
+.button{
+    margin: 16px 12px;
+    border:none;
+    background:#ff9700;
+    border-radius: 10px;
+    color: #fff
+}
+.suceess{
+    text-align: center;
+    height:200rpx;
+    line-height: 200rpx
+}

@@ -1,0 +1,23 @@
+<view class='container'>
+    <view class='info'>
+        <label>我的地址</label><br/>
+        <view>{{info.address}}</view>
+    </view>
+    <view class='label'>
+        <label>类型</label><br/>
+        <view>
+            <image src="../../imgs/{{info.type=='buy'?'buy':'sell'}}.png"/>
+            {{info.type=="sell"?"转让":"求购"}}
+        
+        </view>
+    </view>
+    <view class='info'>
+        <label>说明</label><br/>
+        <view>{{info.sall}}</view>
+    </view>
+    <view class='info'>
+        <label>联系方式</label><br/>  
+        <view>{{info.phone}}</view>
+    </view>
+      
+</view>
